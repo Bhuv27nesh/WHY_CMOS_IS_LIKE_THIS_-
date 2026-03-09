@@ -1,0 +1,15 @@
+* E:\SOFTWARE\EXERCISE LTSPICE\WHY_CMOS_WHY\reversed_cmos.asc
+M1 out IN 0 0 PMOS l=180n w=2u
+M2 Vdd IN out Vdd NMOS l=180n w=1u
+C1 out 0 0.036p
+V§Inp_Supp1 IN 0 PULSE(0 1.8 0 1p 1p 10n 20n)
+Vdd1 Vdd 0 1.8
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\BHUVANESH\OneDrive\Documents\LTspiceXVII\lib\cmp\standard.mos
+* REVERSED CMOS STRUCTURE
+* PULL UP = NMOS | PULL DOWN = PMOS
+.op
+.tran 0 80n .1n .1
+.backanno
+.end

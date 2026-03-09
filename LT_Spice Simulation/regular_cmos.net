@@ -1,0 +1,15 @@
+* E:\SOFTWARE\EXERCISE LTSPICE\WHY_CMOS_WHY\regular_cmos.asc
+M1 Vdd IN out Vdd PMOS l=180n w=2u
+M2 out IN 0 0 NMOS l=180n w=1u
+C1 out 0 0.036p
+V§Inp_Supp IN 0 PULSE(0 1.8 0 1p 1p 10n 20n)
+Vdd Vdd 0 1.8
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\BHUVANESH\OneDrive\Documents\LTspiceXVII\lib\cmp\standard.mos
+* REGULAR CMOS STRUCTURE
+* PULL UP = PMOS | PULL DOWN = NMOS
+.op
+.tran 0 80n .1n .1
+.backanno
+.end
