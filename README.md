@@ -25,7 +25,7 @@ CMOS stands for **Complementary MOS**, meaning it uses both:
 
 These transistors are arranged in a complementary way so that **only one network conducts at a time**, minimizing static power consumption.
 
-Typical CMOS inverter structure:
+Typical CMOS inverter structure:  
 <img width="552" height="277" alt="regu_cmos" src="https://github.com/user-attachments/assets/56ad9bb5-5b5b-4d42-b2a0-634b9ec15d58" />
 
 
@@ -130,7 +130,7 @@ If we reverse the structure:
 - **NMOS used as pull-up**
 - **PMOS used as pull-down**
 
-Structure becomes:
+Structure becomes:  
 <img width="550" height="273" alt="rev_cmos" src="https://github.com/user-attachments/assets/60e5116d-5bca-43ea-91eb-23fe741cf077" />
 
 This configuration causes several problems.
@@ -213,7 +213,8 @@ Simulation parameters:
 
 ---
 
-# Simulation Results
+# Simulation Results  
+
 <img width="1018" height="752" alt="WHY_CMOS_WHY" src="https://github.com/user-attachments/assets/97bbeae5-02e3-4d29-be2f-54a990f090d0" />
 
 ## Regular CMOS
