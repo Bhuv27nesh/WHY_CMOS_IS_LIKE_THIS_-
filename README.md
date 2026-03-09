@@ -63,7 +63,7 @@ A **strong logic level** means the transistor can pass the voltage level complet
 
 NMOS passes **strong logic 0**.
 
-When pulling the output to ground:  
+When pulling the output to ground:
 Vout ≈ 0V
 
 
