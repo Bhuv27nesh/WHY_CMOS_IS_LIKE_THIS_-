@@ -63,11 +63,11 @@ A **strong logic level** means the transistor can pass the voltage level complet
 
 NMOS passes **strong logic 0**.
 
-When pulling the output to ground:
+When pulling the output to ground:  
 Vout ≈ 0V
 
 
-But NMOS cannot pass a full logic 1.
+But NMOS cannot pass a full logic 1.  
 Output becomes:
 
 Vout = VDD - VTN
@@ -84,7 +84,7 @@ When pulling the output to VDD:
 Vout ≈ VDD
 
 
-But PMOS cannot pass a full logic 0.
+But PMOS cannot pass a full logic 0.  
 Output becomes:
 Vout ≈ |VTP|
 
